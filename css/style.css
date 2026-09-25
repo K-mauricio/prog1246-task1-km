@@ -1,5 +1,5 @@
 body {
-    width: 900px;
+    width: 1120px;
     border: 2px solid black;
     margin: 20px auto;
     padding: 20px;
@@ -8,6 +8,17 @@ body {
 
 header {
     text-align: center;
+}
+
+main {
+    width: 800px;
+    float: left;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    padding-left: 20px;
 }
 
 h1 {
@@ -37,7 +48,17 @@ img {
     border-radius: 10px;
 }
 
+.redlink:hover {
+    color: red;
+}
+
+aside li:nth-child(odd) {
+    color: rgb(122, 93, 255);
+    background-color: rgb(84, 206, 255);
+}
+
 footer {
+    clear: both;
     text-align: center;
     font-weight: bold;
     background-color: rgb(2, 3, 75);
